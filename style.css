@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  margin: 10px;
+}
+.tab {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  display: block;
+}
+.tab .tablink {
+  display: inline-block;
+  background: transparent;
+  padding: 15px;
+  border: none;
+  outline: none;
+  margin: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.tab .tablink.active {
+  background: #ccc;
+}
+.tab .tablink:hover {
+  background: #ddd;
+}
+
+.tabcontent {
+  padding: 6px 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: none;
+}
+.tabcontent.active {
+  display: block;
+}

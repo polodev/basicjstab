@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content">
+
+    <div class="tab">
+      <button onclick="openCity(event, 'dhaka')" class="active tablink"> Dhaka </button>
+      <button onclick="openCity(event, 'chittagong')" class="tablink"> Chittagong </button>
+      <button onclick="openCity(event, 'khulna')" class="tablink"> khulna </button>
+    </div>
+
+    <div id="dhaka" class="tabcontent active">
+      <h1>something about dhaka</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, exercitationem!</p>
+    </div>
+    <div id="chittagong" class="tabcontent">
+      <h1>something about chittagong</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, exercitationem!</p>
+    </div>
+    <div id="khulna" class="tabcontent">
+      <h1>something about khulna</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, exercitationem!</p>
+    </div>
+    
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
